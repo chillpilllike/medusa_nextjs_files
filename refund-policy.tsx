@@ -1,3 +1,5 @@
+// src/app/[countryCode]/(main)/content/refund-policy
+
 import { Heading, Text } from "@medusajs/ui"
 
 import React from 'react'
