@@ -1,3 +1,5 @@
+// src/modules/layout/templates/footer/index.tsx
+
 import { getCategoriesList } from "@lib/data/categories";
 import { getCollectionsList } from "@lib/data/collections";
 import { Text, clx } from "@medusajs/ui";
