@@ -1,3 +1,5 @@
+// src/app/[countryCode]/(main)/content/privacy-policy
+
 import { Heading, Text } from "@medusajs/ui"
 
 import React from 'react'
