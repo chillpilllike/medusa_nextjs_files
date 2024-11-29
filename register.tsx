@@ -1,3 +1,5 @@
+// src/modules/account/components/register/index.tsx #Medusa Store to Store
+
 "use client"
 
 import { useFormState } from "react-dom"
