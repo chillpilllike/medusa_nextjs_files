@@ -1,20 +1,31 @@
-import { Text } from "@medusajs/ui"
+import { Text, IconBadge } from "@medusajs/ui"
+import { Stripe, Mastercard, Visa, Klarna, VerifiedBadge } from "@medusajs/icons"
 
 import Medusa from "../../../common/icons/medusa"
 import NextJs from "../../../common/icons/nextjs"
 
 const MedusaCTA = () => {
   return (
-    <Text className="flex gap-x-2 txt-compact-small-plus items-center">
-      Powered by
-      <a href="https://www.medusajs.com" target="_blank" rel="noreferrer">
-        <Medusa fill="#9ca3af" className="fill-[#9ca3af]" />
-      </a>
-      &
-      <a href="https://nextjs.org" target="_blank" rel="noreferrer">
-        <NextJs fill="#9ca3af" />
-      </a>
-    </Text>
+    <div className="flex flex-col items-center">
+      <div className="flex gap-x-2 items-center">
+        <IconBadge>
+          <Stripe />
+        </IconBadge>
+        <IconBadge>
+          <Mastercard />
+        </IconBadge>
+        <IconBadge>
+          <Visa />
+        </IconBadge>
+        <IconBadge>
+          <Klarna />
+        </IconBadge>
+        <IconBadge>
+          <VerifiedBadge />
+        </IconBadge>
+      </div>
+      <Text className="txt-compact-small-plus mt-2">Secure & Encrypted</Text>
+    </div>
   )
 }
 
