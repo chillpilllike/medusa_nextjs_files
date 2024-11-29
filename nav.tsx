@@ -1,3 +1,5 @@
+// src/modules/layout/templates/nav/index.tsx
+
 import { Suspense } from "react"
 
 import { listRegions } from "@lib/data/regions"
