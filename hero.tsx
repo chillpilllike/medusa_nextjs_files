@@ -1,3 +1,5 @@
+// src/modules/home/components/hero/index.tsx
+
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
 
