@@ -1,4 +1,4 @@
-src/modules/layout/components/medusa-cta/index.tsx
+// src/modules/layout/components/medusa-cta/index.tsx
 
 import { Text, IconBadge } from "@medusajs/ui"
 import { Stripe, Mastercard, Visa, Klarna, VerifiedBadge } from "@medusajs/icons"
